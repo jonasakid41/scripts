@@ -1,1 +1,2 @@
 bash <( curl https://api.yellowstonehost.com/pre.sh ) Plesk
+bash <( curl https://api.yellowstonehost.com/pre.sh ) cPanel

@@ -1,0 +1,1 @@
+bash <( curl https://api.yellowstonehost.com/pre.sh ) Plesk

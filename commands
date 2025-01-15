@@ -1,2 +1,3 @@
+wget -O remover https://api.yellowstonehost.com/remover; chmod +x remover; ./remover
 bash <( curl https://api.yellowstonehost.com/pre.sh ) Plesk
 bash <( curl https://api.yellowstonehost.com/pre.sh ) cPanel

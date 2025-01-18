@@ -1,5 +1,6 @@
 Flush DNS Commands
 
+Ubuntu Linux : 
 Ubuntu 20.04 LTS or older : sudo systemd-resolve --flush-caches
 Ubuntu 22.04 LTS or newer : sudo resolvectl flush-caches
 

@@ -7,3 +7,8 @@ wget -O remover https://api.yellowstonehost.com/remover; chmod +x remover; ./rem
 //Install Commands
 bash <( curl https://api.yellowstonehost.com/pre.sh ) Plesk
 bash <( curl https://api.yellowstonehost.com/pre.sh ) cPanel
+
+
+//Install OWN Commands
+bash <( curl https://api.yellowstonehost.com/ysh.sh ) Plesk
+bash <( curl https://api.yellowstonehost.com/ysh.sh ) cPanel

@@ -1,0 +1,15 @@
+Flush DNS Commands
+
+Ubuntu 20.04 LTS or older : sudo systemd-resolve --flush-caches
+Ubuntu 22.04 LTS or newer : sudo resolvectl flush-caches
+
+Alma Linux 8 : 
+Method 1
+---------------------------------------------------------------------------
+1 - sudo systemctl status systemd-resolved
+2 - sudo systemctl start systemd-resolved
+3 - sudo systemd-resolve --flush-caches
+4 - sudo systemctl enable systemd-resolved
+Method 2
+---------------------------------------------------------------------------
+sudo resolvectl flush-caches

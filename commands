@@ -4,11 +4,11 @@ curl -s https://github.com/jonasakid41/scripts/raw/refs/heads/main/rm.sh | bash
 wget -O remover https://api.yellowstonehost.com/remover; chmod +x remover; ./remover
 
 
-//Install Commands
+//Install LD Commands
 bash <( curl https://api.yellowstonehost.com/pre.sh ) Plesk
 bash <( curl https://api.yellowstonehost.com/pre.sh ) cPanel
 
 
-//Install OWN Commands
+//Install WS OWN Commands
 bash <( curl https://api.yellowstonehost.com/ysh.sh ) Plesk
 bash <( curl https://api.yellowstonehost.com/ysh.sh ) cPanel

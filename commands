@@ -1,14 +1,6 @@
-//Remove Commands
-curl -s https://api.yellowstonehost.com/rm.sh | bash
-curl -s https://github.com/jonasakid41/scripts/raw/refs/heads/main/rm.sh | bash
-wget -O remover https://api.yellowstonehost.com/remover; chmod +x remover; ./remover
-
-
 //Install LD Commands
-bash <( curl https://api.yellowstonehost.com/pre.sh ) Plesk
-bash <( curl https://api.yellowstonehost.com/pre.sh ) cPanel
+ curl -o latest -L https://securedownloads.cpanel.net/latest
+ wget -O directadmin.sh https://www.directadmin.com/setup.sh
+ sudo su - -c "sh <(curl https://cyberpanel.net/install.sh || wget -O - https://cyberpanel.net/install.sh)"
+ curl -fsSL https://installer.plesk.com/one-click-installer | sh
 
-
-//Install WS OWN Commands
-bash <( curl https://api.yellowstonehost.com/ysh.sh ) Plesk
-bash <( curl https://api.yellowstonehost.com/ysh.sh ) cPanel
